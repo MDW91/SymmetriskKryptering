@@ -1,0 +1,38 @@
+﻿<Window x:Class="SymmetriskKryptering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SymmetriskKryptering"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="413.333" Width="692">
+    <Grid Margin="0,0,45,36">
+
+        <Button Content="Decrypt" HorizontalAlignment="Left" Margin="42,264,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_1"/>
+        <ComboBox Name="cbi" HorizontalAlignment="Left" Margin="42,47,0,0" VerticalAlignment="Top" Width="89" Height="20" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
+            <ListBoxItem Content="DES" BorderBrush="White" Foreground="#FFFFFFFF" Background="#FF0829FF" Width="70" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem Content="TDES" BorderBrush="White" Foreground="#FFFFFFFF" Background="#FF0829FF" Width="70"/>
+            <ListBoxItem Content="AES" BorderBrush="White" Foreground="#FFFFFFFF" Background="#FF0829FF" Width="70"/>
+        </ComboBox>
+        <Label Content="Key" HorizontalAlignment="Left" Margin="405,40,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30" RenderTransformOrigin="2.5,0.583"/>
+        <Label Content="ASCII" HorizontalAlignment="Left" Margin="232,162,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30"/>
+        <Label Content="ASCII" HorizontalAlignment="Left" Margin="232,249,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30"/>
+        <Label Content="HEX" HorizontalAlignment="Left" Margin="232,273,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30"/>
+        <TextBox Name="key_box" HorizontalAlignment="Left" Height="19" Margin="262,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="key_TextChanged"/>
+        <TextBox Name="Plaintext" HorizontalAlignment="Left" Height="19" Margin="262,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name="Chiphertext" HorizontalAlignment="Left" Height="19" Margin="262,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="hmacTxt_TextChanged"/>
+        <TextBox Name="hex_decrypt" HorizontalAlignment="Left" Height="19" Margin="262,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Plaintext" HorizontalAlignment="Left" Margin="394,140,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="49"/>
+        <Label Content="Chipher Text;" HorizontalAlignment="Left" Margin="391,233,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="69"/>
+        <Label Content="IV" HorizontalAlignment="Left" Margin="409,72,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30" RenderTransformOrigin="2.5,0.583"/>
+        <TextBox x:Name="IV_box" HorizontalAlignment="Left" Height="19" Margin="262,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="key_TextChanged"/>
+        <Button Content="Generate Key and IV" HorizontalAlignment="Left" Margin="42,90,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click"/>
+        <Label Content="HEX" HorizontalAlignment="Left" Margin="232,185,0,0" VerticalAlignment="Top" Height="24" FontSize="10" Width="30"/>
+        <TextBox x:Name="hex_encrypt" HorizontalAlignment="Left" Height="19" Margin="262,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="TextBox_TextChanged_1"/>
+        <TextBlock Name="EncryptTextBlock" HorizontalAlignment="Left" Margin="365,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <TextBlock Name="DecryptTextBlock" HorizontalAlignment="Left" Margin="365,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
+        <Button Content="Encrypt" HorizontalAlignment="Left" Margin="42,175,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="263,208,0,0" TextWrapping="Wrap" Text="Encryption Time =" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="263,295,0,0" TextWrapping="Wrap" Text="Encryption Time =" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

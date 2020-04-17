@@ -1,0 +1,15 @@
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.csprojAssemblyReference.cache
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\MainWindow.g.cs
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\App.g.cs
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering_MarkupCompile.cache
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering_MarkupCompile.lref
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\bin\Debug\SymmetriskKryptering.exe.config
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\bin\Debug\SymmetriskKryptering.exe
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\bin\Debug\SymmetriskKryptering.pdb
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\MainWindow.baml
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.g.resources
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.Properties.Resources.resources
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.csproj.GenerateResource.cache
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.csproj.CoreCompileInputs.cache
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.exe
+C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.pdb
