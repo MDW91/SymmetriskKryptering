@@ -33,6 +33,6 @@
         <TextBlock Name="DecryptTextBlock" HorizontalAlignment="Left" Margin="365,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
         <Button Content="Encrypt" HorizontalAlignment="Left" Margin="42,175,0,0" VerticalAlignment="Top" Width="116" Click="Button_Click_2"/>
         <TextBlock HorizontalAlignment="Left" Margin="263,208,0,0" TextWrapping="Wrap" Text="Encryption Time =" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="263,295,0,0" TextWrapping="Wrap" Text="Encryption Time =" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="263,295,0,0" TextWrapping="Wrap" Text="Decryption Time =" VerticalAlignment="Top"/>
     </Grid>
 </Window>
