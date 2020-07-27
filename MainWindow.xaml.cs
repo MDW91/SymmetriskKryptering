@@ -86,8 +86,11 @@ namespace SymmetriskKryptering
                 Chiphertext.Text = Encoding.UTF8.GetString(decryptedText);
 
             }
+            //Stops the Stopwatch and saves the times used to encrypt/decrypt the message.
             sw.Stop();
             TimeSpan time2 = sw.Elapsed;
+
+            //Display the saved time in miliseconds 
             DecryptTextBlock.Text = time2.TotalMilliseconds.ToString() + "ms";
         }
 
