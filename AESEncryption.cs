@@ -61,7 +61,16 @@ namespace SymmetriskKryptering
                         CryptoStreamMode.Write);
 
                     cryptoStream.Write(dataToDecrypt, 0, dataToDecrypt.Length);
-                    cryptoStream.FlushFinalBlock();
+
+                    try
+                    {
+                       cryptoStream.FlushFinalBlock();
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBoxError Msg = Msg.Show("Encrypted Hex Does not match, Program will close!", "Missmatch");
+                    }
+
 
                     var decryptBytes = memoryStream.ToArray();
 

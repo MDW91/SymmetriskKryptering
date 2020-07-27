@@ -13,3 +13,5 @@ C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\
 C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.csproj.CoreCompileInputs.cache
 C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.exe
 C:\Users\mathi\source\repos\SymmetriskKryptering\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.pdb
+C:\Users\mawr\Source\Repos\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.exe
+C:\Users\mawr\Source\Repos\SymmetriskKryptering\obj\Debug\SymmetriskKryptering.pdb
